@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Metric → Imperial Converter</h1>
+
+  <label>Enter value:</label>
+  <input id="value" type="text" placeholder="e.g. 10" />
+
+  <label>Choose conversion:</label>
+  <select id="type">
+    <option value="cToF">Celsius → Fahrenheit</option>
+    <option value="kmToMi">Kilometers → Miles</option>
+    <option value="mToFt">Meters → Feet</option>
+    <option value="kgToLb">Kilograms → Pounds</option>
+  </select>
+
+  <button id="btn">Convert</button>
+
+  <h2>Result:</h2>
+  <p id="result">---</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
