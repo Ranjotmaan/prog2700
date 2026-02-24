@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Message Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Interactive Message Card</h1>
+
+  <div class="controls">
+    <input id="messageInput" type="text" placeholder="Type your message here..." />
+
+    <button id="showBtn">Show Message</button>
+    <button id="colorBtn">Change Color</button>
+    <button id="addNoteBtn">Add Note</button>
+    <button id="removeNoteBtn">Remove Note</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <div id="card" class="card">
+    <p id="cardMessage"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
